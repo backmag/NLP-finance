@@ -1,5 +1,7 @@
 from Datasets import Utilities
 from pathlib import Path
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
 import pandas as pd
 import os
 
@@ -16,6 +18,8 @@ def main():
     print("News data loaded successfully.")
     ts_data = pd.read_pickle(Path(os.getcwd() + "/data/stock_data.pkl"))
     print("Stock data loaded successfully. ")
+    headline_data = Utilities.load_file(str(os.getcwd() + "/data/financial_headlines_20061020-20131119"))
+    print("Headlines loaded successfully. ")
 
 
 if __name__ == '__main__':
