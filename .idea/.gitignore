@@ -1,0 +1,8 @@
+# Default ignored files
+/workspace.xml
+/.ipynb_checkpoints/*
+/.ipynb_checkpoints/
+.ipynb_checkpoints/*
+.ipynb_checkpoints/
+Benchmark Evaluations/Model Weights
+Benchmark Evaluations/Model Weights/*
