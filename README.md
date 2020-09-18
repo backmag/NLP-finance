@@ -3,4 +3,4 @@ Repository for thesis on Natural Language Processing
 
 ## Report 
 
-Progress of the academic report can be found at: https://www.overleaf.com/read/xttmdpbpfdwk
+The report for this project can be found at https://lup.lub.lu.se/student-papers/search/publication/9024747. 
